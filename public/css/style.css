@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+		background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#queryForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#queryForm > input{
+    margin-bottom: 10px;
+    padding: 10px
+}
+
+#queryForm > input[type=submit]{
+    background-color:cadetblue;
+    color: white;
+    border:4px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s, border-color 1s;
+}
+
+#queryForm > input[type=submit]:hover{
+    background-color: gray;
+    border-color: cadetblue;
+}
